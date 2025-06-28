@@ -15,7 +15,7 @@ interface QAItem {
   difficulty: "Basic" | "Intermediate" | "Advanced"
 }
 
-const qaData: QAItem[] = [
+export const qaData: QAItem[] = [
   // Chapter 5: Process Scheduling (keeping existing 42 questions)
   {
     id: 1,
