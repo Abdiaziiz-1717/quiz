@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'OS quiz',
+  description: 'Created by Abdiaziiz',
   generator: 'v0.dev',
 }
 
@@ -15,6 +15,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
+       <footer
+          style={{
+            position: 'fixed',
+            bottom: 0,
+            left: 0,
+            width: '100%',
+            textAlign: 'center',
+            padding: '10px 0',
+            fontSize: '14px',
+            background: 'transparent',
+            borderTop: '1px solid #ccc',
+          }}
+        >
+          Created by Abdiaziiz
+        </footer>
     </html>
   )
 }
