@@ -28,7 +28,7 @@ export default function RootLayout({
             borderTop: '1px solid #ccc',
           }}
         >
-          Link: <a href="https://drive.google.com/file/d/1WsvuXq8wPfc0g5YIi9_qGit-GwPe_A20/view?usp=sharing  "></a>
+          Link: <a href="https://drive.google.com/file/d/1WsvuXq8wPfc0g5YIi9_qGit-GwPe_A20/view?usp=sharing  "> pdf file </a>
           Created by Abdiaziiz 
         </footer>
     </html>
